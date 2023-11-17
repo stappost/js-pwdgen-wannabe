@@ -7,3 +7,7 @@ let cognome = prompt ("inserisci il tuo cognome");
 let colore_preferito = prompt ("inserisci il tuo colore preferito");
 // CREAZIONE VARIABILE PASSWORD 
 let password = `${nome}${cognome}${colore_preferito}23`;
+
+// SHOW PASSWORD IN HTML 
+
+document.getElementById('password').innerHTML = password;
